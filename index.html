@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maple Syrup Recipes</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #d35400;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .nav-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #e67e22;
+        }
+
+        /* Recipe Styles */
+        .recipe {
+            background-color: #fff;
+            padding: 40px;
+            margin: 40px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe h2 {
+            color: #e67e22;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .recipe-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .recipe-image {
+            flex: 1;
+        }
+
+        .recipe-image img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .recipe-description {
+            flex: 2;
+            padding-left: 40px;
+        }
+
+        .recipe-description p {
+            margin-bottom: 20px;
+        }
+
+        .recipe-description ul,
+        .recipe-description ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .recipe-description li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-content a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .footer-content a:hover {
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Maple Syrup Recipes</h1>
+        <p>Delightful recipes featuring the sweet goodness of maple syrup</p>
+    </div>
+</header>
+
+<nav>
+    <div class="nav-container">
+        <a href="#tuna">Maple Syrup with Tuna Fish</a>
+        <a href="#popsicle">Maple Syrup Popsicle</a>
+        <a href="#popcorn">Maple Syrup Popcorn</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <section id="tuna" class="recipe">
+        <h2>Maple Syrup with Tuna Fish</h2>
+        <div class="recipe-details">
+            <div class="recipe-image">
+                <img src="tuna_image.jpg" alt="Maple Syrup with Tuna Fish">
+            </div>
+            <div class="recipe-description">
+                <p>This unexpected combination of maple syrup and tuna creates a unique and savory dish that will surprise and delight your taste buds.</p>
+                <p>Ingredients:</p>
+                <ul>
+                    <li>Tuna fillets</li>
+                    <li>Maple syrup</li>
+                    <li>Seasonings (salt, pepper, herbs)</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Marinate tuna fillets in maple syrup and seasonings.</li>
+                    <li>Grill or pan-sear until cooked to your desired level of doneness.</li>
+                    <li>Serve hot and enjoy!</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section id="popsicle" class="recipe">
+        <h2>Maple Syrup Popsicle</h2>
+        <div class="recipe-details">
+            <div class="recipe-image">
+                <img src="popsicle_image.jpg" alt="Maple Syrup Popsicle">
+            </div>
+            <div class="recipe-description">
+                <p>Cool off on a hot day with these refreshing maple syrup popsicles.</p>
+                <p>Ingredients:</p>
+                <ul>
+                    <li>Maple syrup</li>
+                    <li>Water</li>
+                    <li>Optional: fruit slices or purees</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Mix maple syrup with water to create a sweet syrup.</li>
+                    <li>Pour the mixture into popsicle molds.</li>
+                    <li>Add fruit slices or purees if desired.</li>
+                    <li>Insert popsicle sticks and freeze until solid.</li>
+                    <li>Enjoy your homemade maple syrup popsicles!</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section id="popcorn" class="recipe">
+        <h2>Maple Syrup Popcorn</h2>
+        <div class="recipe-details">
+            <div class="recipe-image">
+                <img src="popcorn_image.jpg" alt="Maple Syrup Popcorn">
+            </div>
+            <div class="recipe-description">
+                <p>Add a sweet twist to your favorite snack with maple syrup popcorn.</p>
+                <p>Ingredients:</p>
+                <ul>
+                    <li>Popcorn kernels</li>
+                    <li>Maple syrup</li>
+                    <li>Butter or coconut oil</li>
+                    <li>Salt</li>
+                </ul>
+                <p>Instructions:</p>
+                <ol>
+                    <li>Pop the popcorn kernels using your preferred method.</li>
+                    <li>In a saucepan, heat maple syrup and butter or coconut oil until melted and combined.</li>
+                                        <li>Drizzle the maple syrup mixture over the popcorn and toss to coat evenly.</li>
+                    <li>Sprinkle with salt to taste.</li>
+                    <li>Spread the popcorn on a baking sheet and bake at 250°F (120°C) for 45-60 minutes, stirring occasionally, until crisp.</li>
+                    <li>Let cool before serving and enjoy your delicious maple syrup popcorn!</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Maple Syrup Recipes</p>
+        <p>Follow us on <a href="https://www.instagram.com/maplesyruprecipes/">Instagram</a> for more delicious inspiration!</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
